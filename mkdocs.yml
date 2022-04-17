@@ -12,6 +12,7 @@ theme:
   features:
     - header.autohide
     - content.tabs.link
+  logo: img/logo.png
 markdown_extensions:
     - admonition
     - toc: # https://python-markdown.github.io/extensions/toc/
@@ -34,4 +35,6 @@ nav:
    - LayoutEditor: 'layout.md'
    - LayoutKit: 'laykit.md'
    - Switch Theme Injector: 'swthmeinj.md'
-   - Thanks & Credits: 'thanks.md'
+   - extra:
+                  - Thanks & Credits: 'thanks.md'
+                  - NX-GIC Guide: 'https://sodasoba1.github.io/NSW-Custom-Game-Icons/'
